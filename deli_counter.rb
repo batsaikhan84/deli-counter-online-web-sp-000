@@ -7,9 +7,9 @@ def line(array)
   else
     string = ""
     array.each do |name|
-      string << "The line is currently: #{array.size}. #{name}"
+      string << #{array.size}. #{name}"
     end
-    puts string
+    puts "The line is currently: #{string}
   end
 end
 
