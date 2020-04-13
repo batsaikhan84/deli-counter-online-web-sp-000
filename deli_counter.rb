@@ -5,7 +5,11 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array.size}. #{array}"
+    new_array = []
+    array.each do |name|
+      new_array << "The line is currently: #{array.size}"
+    end
+    puts "The line is currently: "
   end
 end
 
