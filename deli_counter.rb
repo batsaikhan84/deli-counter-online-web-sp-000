@@ -9,7 +9,7 @@ def line(array)
     array.each do |name|
       string << #{array.size}. #{name}"
     end
-    puts "The line is currently: #{string}
+    puts "The line is currently: #{string}"
   end
 end
 
